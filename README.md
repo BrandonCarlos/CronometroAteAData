@@ -10,4 +10,6 @@ implementei a função de que quando os Segundos ficam apenas com um digito exem
 - CSS
 - JAVASCRIPT
 
+Acesse na web <a href="https://cronometro-data.netlify.app/">Clique aqui</a>
+
 <p>Feito com muito ❤️ por Brandon Carlos</p>
