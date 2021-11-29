@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+
+<body>
+
+  <div class="relogio">
+    <h1>Informe uma data e te digo quando tempo falta até lá</h1>
+    <div class="container-relogio">
+      <label for="dia">Informe o dia:</label>
+      <input type="number" name="dia" id="dia" placeholder="Informe o dia:">
+      <label for="mes">Informe o mês:</label>
+      <input type="text" name="mes" id="mes" placeholder="Informe o mês:">
+      <label for="ano">Informe a ano:</label>
+      <input type="number" name="ano" id="ano" placeholder="Informe a ano:">
+      <div class="button-flex">
+        <button class="informar">Verificar</button>
+      </div>
+
+      <div class="resume-time">
+        <span class="day"></span>
+        <span class="hours"></span>
+        <span class="minutes"></span>
+        <span class="seconds"></span>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="./script.js"></script>
+</body>
+
+</html>
